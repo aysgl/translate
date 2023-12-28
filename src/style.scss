@@ -1,0 +1,23 @@
+body {
+  background-color: #ffbf00;
+}
+textarea {
+  border: none !important;
+  &:focus {
+    box-shadow: none !important;
+  }
+  &:disabled {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: gray !important;
+  }
+}
+
+.css-13cymwt-control {
+  border-color: transparent !important;
+  .css-1u9des2-indicatorSeparator {
+    background-color: transparent !important;
+  }
+}
+.css-b62m3t-container:focus {
+  border: 3px solid red !important;
+}
